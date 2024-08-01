@@ -1,0 +1,13 @@
+name: 'Greet New User'
+description: 'Greet new users in a repository'
+inputs:
+  name:
+    description: 'The username of the new user'
+    required: true
+    default: 'user'
+outputs:
+  time: 
+    description: 'The time we greeted you'
+runs:
+  using: 'node18'
+  main: 'main.js'  
